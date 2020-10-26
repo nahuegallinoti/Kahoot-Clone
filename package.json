@@ -1,0 +1,21 @@
+{
+    "name": "kahootclone",
+    "version": "1.0.0",
+    "description": "Preguntados TED",
+    "main": "./server/server.js",
+    "scripts": {},
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^2.7.1",
+        "express": "^4.16.3",
+        "moment": "^2.22.1",
+        "mongodb": "^3.3.3",
+        "mongoose": "^5.7.6",
+        "nodemon": "^1.19.4",
+        "socket.io": "^2.1.1"
+    },
+    "devDependencies": {
+        "expect": "^25.0.0"
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sala de Juego</title>
+    <link rel="stylesheet" href="../css/host.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <a class="navbar-brand" href="../create/index.html">Salas</a>
+        <a class="navbar-brand" href="../create/quiz-creator/index.html">Crear Sala</a>
+    </nav>
+
+
+    <button class="btn btn-danger btn-md" id="cancel" onclick="endGame()">Cancelar Sala</button>
+    <h2 id="title">Unirse a la sala mediante el siguiente código: </h2>
+    <h1 id="gamePinText"></h1>
+    <h3 style="text-align: center; margin-top: 5px;">
+        <span class="badge badge-secondary">Participantes en la sala</span>
+    </h3>
+    <textarea style="width: 400px; height: 200px;" readonly id='players'></textarea>
+    <br>
+    <button id='start' onclick="startGame()">Comenzar Juego!</button>
+    <br>
+    <br>
+    <script src="../socket.io/socket.io.js"></script>
+    <script src="../js/libs/jqueryLibrary.js"></script>
+    <script src="../js/libs//deparam.js"></script>
+    <script src="../js/host.js"></script>
+</body>
+
+</html>

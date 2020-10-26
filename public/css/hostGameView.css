@@ -1,0 +1,165 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #6c9dc269
+    }
+    25% {
+        background-color: #1a9ca583
+    }
+    50% {
+        background-color: #d67b3e7a
+    }
+    75% {
+        background-color: rgba(205, 206, 119, 0.507)
+    }
+    100% {
+        background-color: #7e637e9f
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    margin-top: 5%;
+}
+
+#answer1 {
+    background-color: #4CAF50;
+    margin: auto;
+    padding: 30px 20px;
+    height: 20%;
+    font-size: 20px;
+    border-radius: 15px 50px
+}
+
+#answer2 {
+    background-color: #f94a1e;
+    margin: auto;
+    padding: 30px 20px;
+    height: 20%;
+    font-size: 20px;
+    border-radius: 15px 50px
+}
+
+#answer3 {
+    background-color: #3399ff;
+    margin: auto;
+    padding: 30px 20px;
+    height: 20%;
+    font-size: 20px;
+    border-radius: 15px 50px
+}
+
+#answer4 {
+    background-color: #ff9933;
+    margin: auto;
+    padding: 30px 20px;
+    height: 20%;
+    font-size: 20px;
+    border-radius: 15px 50px
+}
+
+.square {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 70px;
+    height: 0px;
+    font-size: 20px;
+}
+
+#square1 {
+    background-color: #4CAF50;
+}
+
+#square2 {
+    background-color: #f94a1e;
+}
+
+#square3 {
+    background-color: #3399ff;
+}
+
+#square4 {
+    background-color: #ff9933;
+}
+
+#nextQButton {
+    display: none;
+}
+
+#question {
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+#timerText {
+    font-family: 'Verdana', sans-serif;
+    color: #FF0000;
+}
+
+#num {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+
+#playersAnswered {
+    font-family: 'Tajawal', sans-serif;
+}
+
+#questionNum {
+    font-family: 'Tajawal', sans-serif;
+}
+
+#nombrewinner1,
+#puntajewinner1 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 30px !important;
+    display: none;
+}
+
+#nombrewinner2,
+#puntajewinner2 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 26px !important;
+    display: none;
+}
+
+#nombrewinner3,
+#puntajewinner3 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 22px !important;
+    display: none;
+}
+
+#nombrewinner4,
+#puntajewinner4 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 18px !important;
+    display: none;
+}
+
+#nombrewinner5,
+#puntajewinner5 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 12px !important;
+    display: none;
+}
+
+#winnerTitle {
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-size: 40px !important;
+    color: #3399ff;
+    display: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lobby</title>
+    <link rel="stylesheet" href="../css/lobby.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <a class="navbar-brand" href="../create/index.html">Salas</a>
+        <a class="navbar-brand" href="../create/quiz-creator/index.html">Crear Sala</a>
+    </nav>
+
+    <div style="margin-top: 12%;">
+        <h1 id="title1">Esperando que el creador inicie la sala</h1>
+        <h3 id="title2">Puedes revisar si aparece tu nombre en la pantalla del creador de la sala ;)</h3>
+    </div>
+    <div class="loader"></div>
+    <br/>
+</body>
+<script src="../socket.io/socket.io.js"></script>
+<script src="../js/libs/jqueryLibrary.js"></script>
+<script src="../js/libs/deparam.js"></script>
+<script src="../js/lobby.js"></script>
+
+</html>
